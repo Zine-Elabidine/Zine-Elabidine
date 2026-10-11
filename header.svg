@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 230" width="900" height="230" role="img" aria-label="Zine-Elabidine Laaboudi, AI/ML Engineer">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .p { fill: #48F07A; font-size: 18px; }
+    .c { fill: #E6EDF3; font-size: 18px; }
+    .name { font-size: 40px; font-weight: 700; }
+    .o { fill: #9AA4AF; font-size: 17px; }
+    .line { clip-path: inset(0 100% 0 0); animation: type 1.1s steps(28) forwards; }
+    .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 2.5s; } .l4 { animation-delay: 3.6s; }
+    @keyframes type { to { clip-path: inset(0 0 0 0); } }
+    .cur { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .line { animation: none; clip-path: none; } .cur { animation: none; } }
+  </style>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#FF4FA3"/><stop offset=".35" stop-color="#F2A541"/>
+      <stop offset=".7" stop-color="#5CC8FF"/><stop offset="1" stop-color="#48F07A"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="898" height="228" rx="14" fill="#141414" stroke="#30363D" stroke-width="1.5"/>
+  <circle cx="28" cy="26" r="6" fill="#3A3F45"/><circle cx="48" cy="26" r="6" fill="#3A3F45"/><circle cx="68" cy="26" r="6" fill="#3A3F45"/>
+  <text x="450" y="31" text-anchor="middle" class="o" style="font-size:13px">zine@diwan: ~</text>
+  <g class="line"><text x="32" y="78"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text></g>
+  <g class="line l2"><text x="32" y="128" class="name" fill="#E6EDF3">Zine-Elabidine Laaboudi</text></g>
+  <g class="line l3"><text x="32" y="168"><tspan class="p">$ </tspan><tspan class="c">cat role</tspan></text></g>
+  <g class="line l4"><text x="32" y="200" class="o">AI/ML Engineer · agents, evals, fine-tuning<tspan class="cur" fill="#48F07A"> ▍</tspan></text></g>
+</svg>
